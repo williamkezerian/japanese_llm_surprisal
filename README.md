@@ -6,6 +6,7 @@
 This project investigates whether model scale improves verb prediction across long syntactic dependencies in Japanese. Using surprisal as a measure of prediction difficulty, three GPT-NeoX language models of increasing size are evaluated on the UD Japanese GSD corpus. Results suggest that scaling from 340M to 3B parameters does not reduce verb surprisal or dampen the distance effect, contrary to findings in English.
 
 ## Repository Structure
+```
 ├── japanese_llm_surprisal.ipynb   # Main analysis notebook
 ├── data/
 │   ├── ja_gsd-ud-train.conllu
@@ -14,6 +15,7 @@ This project investigates whether model scale improves verb prediction across lo
 ├── results/
 │   └── surprisal_results.csv
 └── executive_summary.pdf
+```
 
 ## Models
 The three models used are available on HuggingFace. You will need to download them before running the notebook:
