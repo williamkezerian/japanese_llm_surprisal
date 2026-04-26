@@ -17,6 +17,9 @@ This project investigates whether model scale improves verb prediction across lo
 └── executive_summary.pdf
 ```
 
+## Data
+Download the UD Japanese GSD treebank from https://github.com/UniversalDependencies/UD_Japanese-GSD and place the three `.conllu` files in a `data/` folder.
+
 ## Models
 The three models used are available on HuggingFace. You will need to download them before running the notebook:
 
