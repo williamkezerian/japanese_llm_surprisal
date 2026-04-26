@@ -37,5 +37,8 @@ The notebook is designed to run in Google Colab with a GPU runtime (A100 recomme
 ## Data
 Corpus data is from the [Universal Dependencies Japanese GSD treebank](https://github.com/UniversalDependencies/UD_Japanese-GSD), located in the `data/` folder. It is licensed under Creative Commons and freely available.
 
+## Executive Summary
+A one-page visual executive summary of the project is included as `executive_summary.pdf`. It covers the research question, study design, corpus statistics, per-model results, regression output, and discussion in poster format, designed to communicate the key findings at a glance.
+
 ## Key Finding
 Scaling from 340M to 3B parameters does not reduce verb surprisal or dampen the dependency distance effect in Japanese. All three models return positive controlled distance coefficients, with the large model's coefficient (β=0.193) slightly exceeding the small model's (β=0.145). See the executive summary for full results.
